@@ -9,7 +9,7 @@ export const getStaticProps = async () => {
     const data = await response.json();
 
     return {
-        props: { ninjas: data },
+        props: { ninjas: data }
     };
 
 };
